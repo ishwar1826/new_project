@@ -1,0 +1,549 @@
+body{
+    background-color:black;
+    height: 1vh;
+    width: 97vw;
+}
+.head_nav{
+    display: flex;
+    align-items: start;
+    
+}
+.main_logo {
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    position: relative;
+    left:7%;
+}
+.head_nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+  
+}
+.head_nav ul li {
+    margin-right: 32%;
+      list-style: none;
+}
+.head_nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.head_nav ul li a:hover{
+    cursor: pointer;
+    text-decoration: 2px underline red;
+    font-size: 24px;
+    color: red;
+}
+.head_nav button{
+    margin-left: 1%;
+    padding: 8px 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.head_nav button:hover{
+    cursor: pointer;
+    background-color:red;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+}
+.main_body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   position: relative;
+}
+.mainImage{
+    margin-left: 10%;
+    position: relative;
+    top: -20px;
+    left: 100px;
+}
+.one_ear{
+    margin-left:20%;
+    position: relative;
+    top: -500px;
+}
+.logo_heading{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: -490px;
+    
+}
+.logo_heading span{
+    font-size: 35px;
+}
+.discription{
+    position: relative;
+    color:white;
+    top: -550px;
+}
+.add_to_card_button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #1e1e21;
+    padding: 10px 25px;
+  
+    color:black;
+    width: fit-content;
+    border-radius: 8px;
+    position: relative;
+    top: -550px;
+
+}
+.add_to_card_button:hover{
+    background-color: red;
+    cursor: pointer;
+
+}
+.add_to_card_button img{
+    width: 15px;
+    background-color:transparent;
+}
+.add_to_card_button p{
+    margin-bottom: 2px;
+    color: white;
+    background-color:transparent;
+}
+.add_to_card_button p:hover{
+       font-size: 20px;
+       cursor: pointer;
+}
+.add_to_card_button span{
+    color: white;
+    margin-top: 15px;
+    background-color:transparent;
+}
+.add_to_card_button span:hover{
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.logo_nav{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    top: -500px;
+}
+.logo_nav ul {
+    display: flex;
+   
+}
+.logo_nav ul li {
+    margin-right: 80%;
+}
+.logo_of_specs{
+    position: relative;
+    margin-left: 45%;
+    top: -450px;
+
+
+}
+.imformation_of_product{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15%;
+    position: relative;
+    top: -450px;
+}
+.bluetooth_section{
+    position: relative;
+    left: 6%;
+}
+.bluetooth_section img{
+    position: relative;
+    bottom: -20px;
+}
+.bluetooth_section h3 {
+    color: white;
+    position: relative;
+    left: 7px;
+}
+.bluetooth_section p{
+    position: relative;
+    top:-15px;
+    color: white;
+    left: 7px;
+}
+.battery_section img{
+    position: relative;
+    bottom: -20px;
+}
+.battery_section h3{
+    color: white;
+    position: relative;
+    left: 7px;   
+}
+.battery_section p {
+    position: relative;
+    top:-15px;
+    color: white;
+    left: 7px;
+}
+
+.charg_section img{
+    position: relative;
+    bottom: -20px;
+}
+.charg_section h3{
+    color: white;
+    position: relative;
+    left: 7px;   
+
+}
+.charg_section p {
+    position: relative;
+    top:-15px;
+    color: white;
+    left: 7px;
+
+}
+.microphone_sectionn{
+    position: relative;
+    left: 6%;
+
+}
+.microphone_sectionn h3{
+    color: white;
+    position: relative;
+    left: 7px;   
+}
+.microphone_sectionn p{
+    position: relative;
+    top:-15px;
+    color: white;
+    left: 7px;
+}
+.product_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -900px;
+    margin-left: 15%;
+}
+.case_logo{
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    position: relative;
+    top:-680px;
+}
+.case_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -550px;
+   
+}
+.case_section p{
+    color: white;
+    margin-left: 35%;
+}
+.case_section p img{
+    text-align: start;
+    margin-right: 20%;
+}
+.case_section p:last-child{
+    color: white;
+    margin-left: 35%;
+    background-color: #1e1e21;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.case_section p:last-child:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.second_case{
+    background: #181a1b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 50px;
+    margin-top: 70px;
+    padding: 40px 0;
+    position: relative;
+    top:-500px; 
+    width: 100%;
+    
+}
+.case_product_discription
+{
+    margin-right: 10%;
+}
+.case_product_discription h1{
+    color: white;
+}
+.case_product_discription p{
+    color: white;
+    font-weight: 600;
+
+}
+.case_product_discription p:last-child{
+    background-color: transparent;
+    background-color: #1e1e21;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.case_product_discription p img{
+    margin-right: 10%;
+    
+}
+.case_product_discription p:last-child:hover{
+    background-color: red;
+}
+.product_list{
+    display: grid;
+    grid-template-columns: 1fr   1fr;
+    margin-left: 21%;
+    gap: 20px;
+    position: relative;
+    top: -500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.productLogo{
+    position: relative;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 2%;
+    top:-500px;
+}
+.black_earphone h1 button{
+    text-align: start;
+   
+}
+.black_earphone  button{
+    background-color:#1e1e21;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 20px;
+   position: relative;
+   border-radius: 15px;
+  
+}
+.black_earphone  button:hover{
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.black_earphone button img {
+    background-color:transparent;
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+    
+}
+.redBlack_earphone h1 button{
+    text-align: start;
+
+}
+.redBlack_earphone button{
+    background-color:#1e1e21;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 15px;
+
+}
+.redBlack_earphone button:hover{
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600; 
+
+}
+
+.redBlack_earphone button img{
+    background-color:transparent;
+    position: relative;
+    bottom: 8px;
+    left: 25px;
+}
+.nightBlack_earphone h1 button{
+    text-align: center;
+}
+.nightBlack_earphone button{
+    background-color:#1e1e21;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    margin-right: 30px;
+    position: relative;
+    border-radius: 15px;
+    
+}
+.nightBlack_earphone button:hover{
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600; 
+
+}
+.nightBlack_earphone button img{
+    background-color:transparent;
+    position: relative;
+    bottom: 8px;
+    left: 25px;
+
+}
+.blue_earphone h1 button{
+    text-align: start;
+
+}
+.blue_earphone button{
+    background-color:#1e1e21;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 15px;
+    
+}
+.blue_earphone button:hover{
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600; 
+
+}
+.blue_earphone button img{
+    background-color:transparent;
+    position: relative;
+    bottom: 8px;
+    left: 25px;
+
+}
+.twilightGray_earphone h1 button{
+    text-align: start;
+}
+.twilightGray_earphone button{
+    background-color:#1e1e21;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 15px;   
+
+}
+.twilightGray_earphone button:hover{
+
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600; 
+}
+.twilightGray_earphone button img{
+    background-color:transparent;
+    position: relative;
+    bottom: 8px;
+    left: 30px;
+    
+}
+footer{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 10%;
+    position: relative;
+    top: -400px;
+}
+.product{
+    position: relative;
+    bottom: 20px ;
+    font-size: 20px;
+}
+.support{
+    position: relative;
+    bottom: 20px ;
+    font-size: 20px;
+
+}
+footer ul li {
+    position: relative;
+    gap: 500px;
+} 
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+ ul li :hover{
+    text-decoration: 2px solid underline red;
+    color: red;
+    font-size: 18px;
+}
+.searchbox_{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.searchbox_  div:first-child {
+    background: #181a1b;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: flex;
+   
+}
+.searchbox_  div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+.Subscribe_button{
+    
+    padding: 10ox 20px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:#0A0A0B;
+  
+}
+.scial_media ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    right: 45px;
+}
+.Subscribe_button img{
+    scale: 0.8;
+}
+.Subscribe_button p {
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+.scial_media ul li {
+    margin-right: 10%;
+}
+.searchbox_ div  :last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+}
+.upArrow img{
+    
+    position: relative;
+    left:  250px;
+}
